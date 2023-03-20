@@ -1,4 +1,5 @@
 main page
 nerd stuff
 funnies
-interactive terrain.png map (links to alphaver wiki block pages)
+--interactive terrain.png map (links to alphaver wiki block pages)
+make vincent tic tac toe (alpha 1.1.1 themed and both players put down x's)

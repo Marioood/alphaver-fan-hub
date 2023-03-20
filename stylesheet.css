@@ -4,13 +4,45 @@
 	background-size: 48px 48px;
 	color: white;
 	text-shadow: 1px 1px #404040;
+	margin: 0px;
  }
  
- a:link{
+ body::after{
+  content: "";
+  position: fixed;
+  top: 0; bottom: 0; left: 0; right: 0; 
+  background: #00000080;
+  z-index: -1;
+}
+
+.header-grass{
+	position: absolute;
+	top: 0px;
+	background-image: url("images/grass.png");
+	background-size: 48px 48px;
+	height: 144px;
+	width: 100%;
+	text-align: center;
+ }
+ 
+.header-grass-transition{
+	background-image: url("images/grass-transition.png");
+	position: absolute;
+	top: 144px;
+	background-size: 48px 12px;
+	height: 12px;
+	width: 100%;
+ }
+ 
+ h1{
+	 line-height: 1px;
+ }
+ 
+a:link{
 	color: cyan;
 	text-shadow: 1px 1px #004040;
  }
- 
+
  a:visited{
 	color: white;
 }
@@ -23,21 +55,21 @@ a:active{
 	color: #0080bb;
 }
  
-body:after{
-  content: "";
-  position: fixed;
-  top: 0; bottom: 0; left: 0; right: 0; 
-  background: #00000080;
-  z-index: -1;
-}
- 
- button{
+button{
 	background-color: #6A6F79;
 	border: 9px solid transparent;
 	border-image: url(images/button-border-grey.png) 3 stretch;
 	outline: 3px solid black;
-	height: 46px;
-	width: 792px;
+	height: 32px;
+	width: 150px;
 	color: white;
 	text-shadow: 1px 1px #404040;
+ }
+ 
+button:hover{
+	background-color: #739092;
+	border: 9px solid transparent;
+	border-image: url(images/button-border-blue.png) 3 stretch;
+	color: yellow;
+	text-shadow: 1px 1px #404000;
  }
