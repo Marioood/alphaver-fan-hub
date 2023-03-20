@@ -1,0 +1,41 @@
+ body{
+	image-rendering: pixelated;
+	background-color: black;
+	color: white;
+	text-align: center;
+	margin: 0px;
+	margin-top: 8px;
+ }
+
+#spr{
+	width: 48px;
+	height: 48px;
+	background: url('images/terrain.png') -672px 0px;
+	background-size: 768px 768px;
+}
+
+a{
+	width: 48px;
+	height: 48px;
+	display:block;
+	color: white;
+	text-shadow: 1px 1px #404040;
+ }
+
+
+a:active{
+	color: #bbbbbb;
+}
+
+td{
+	border-collapse: collapse;
+	padding: 0px;
+}
+
+table{
+	border-collapse: collapse;
+	padding: 0px;
+	margin-left: auto;
+    margin-right: auto;
+	width: 768px;
+}

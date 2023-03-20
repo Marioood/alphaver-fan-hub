@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<svg width="9" height="9" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - https://github.com/SVG-Edit/svgedit-->
+ <g class="layer">
+  <title>Layer 1</title>
+  <rect fill="#6d7077" height="1" id="svg_1" stroke="#000000" stroke-width="0" width="6" x="1" y="0"/>
+  <rect fill="#535559" height="1" id="svg_14" stroke="#000000" stroke-width="0" width="1" x="0" y="0"/>
+  <rect fill="#6d7077" height="5" id="svg_2" stroke="#000000" stroke-width="0" width="1" x="0" y="1"/>
+  <rect fill="#5f636a" height="1" id="svg_3" stroke="#000000" stroke-width="0" width="1" x="0" y="6"/>
+  <rect fill="#2f3237" height="1" id="svg_4" stroke="#000000" stroke-width="0" width="1" x="0" y="8"/>
+  <rect fill="#575a61" height="1" id="svg_5" stroke="#000000" stroke-width="0" width="1" x="0" y="7"/>
+  <rect fill="#787c86" height="1" id="svg_6" stroke="#000000" stroke-width="0" width="5" x="2" y="1"/>
+  <rect fill="#878c95" height="1" id="svg_7" stroke="#000000" stroke-width="0" width="1" x="1" y="1"/>
+  <rect fill="#787c86" height="4" id="svg_8" stroke="#000000" stroke-width="0" width="1" x="1" y="2"/>
+  <rect fill="#717680" height="1" id="svg_9" stroke="#000000" stroke-width="0" width="1" x="1" y="6"/>
+  <rect fill="#5e636d" height="1" id="svg_10" stroke="#000000" stroke-width="0" width="1" x="1" y="7"/>
+  <rect fill="#42464d" height="1" id="svg_11" stroke="#000000" stroke-width="0" width="1" x="1" y="8"/>
+  <rect fill="#5f636a" height="1" id="svg_12" stroke="#000000" stroke-width="0" width="1" x="7" y="0"/>
+  <rect fill="#2f3237" height="1" id="svg_13" stroke="#000000" stroke-width="0" width="1" x="8" y="0"/>
+  <rect fill="#2f3237" height="1" id="svg_15" stroke="#000000" stroke-width="0" width="1" x="8" y="8"/>
+  <rect fill="#3e4249" height="1" id="svg_16" stroke="#000000" stroke-width="0" width="6" x="2" y="8"/>
+  <rect fill="#42464d" height="1" id="svg_17" stroke="#000000" stroke-width="0" transform="matrix(1 0 0 1 0 0)" width="1" x="8" y="1"/>
+  <rect fill="#3e4249" height="6" id="svg_18" stroke="#000000" stroke-width="0" width="1" x="8" y="2"/>
+  <rect fill="#626771" height="1" id="svg_19" stroke="#000000" stroke-width="0" width="6" x="2" y="6"/>
+  <rect fill="#565b64" height="1" id="svg_20" stroke="#000000" stroke-width="0" width="6" x="2" y="7"/>
+  <rect fill="#626771" height="4" id="svg_21" stroke="#000000" stroke-width="0" transform="matrix(1 0 0 1 0 0)" width="1" x="7" y="2"/>
+  <rect fill="#717680" height="1" id="svg_22" stroke="#000000" stroke-width="0" width="1" x="7" y="1"/>
+  <rect fill="#6a6f79" height="4" id="svg_23" stroke="#000000" stroke-width="0" width="5" x="2" y="2"/>
+ </g>
+</svg>
