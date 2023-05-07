@@ -1,0 +1,116 @@
+body{
+  color: white;
+  background-color: #808080;
+  margin: 8px;
+  background-image: url("images/cubes.svg");
+  background-repeat: repeat;
+  background-size: 32px 48px;
+}
+
+ body::after{
+  content: "";
+  position: fixed;
+  top: 0; bottom: 0; left: 0; right: 0; 
+  background: #051000b0;
+  z-index: -1;
+}
+
+.window{
+  color: white;
+  background-color: #58732D;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding: 8px;
+  border-radius: 2px;
+  border: 1px solid #ffffff00;
+  border-top: 1px solid #ffffff80;
+  border-bottom: 1px solid #00000080;
+  box-shadow: 0px 1px 2px black;
+  text-align: center;
+  box-shadow: 0px 8px 16px black;
+}
+
+.window-header{
+  background-color: inherit;
+  border: 1px solid #ffffff00;
+  border-top: 1px solid #ffffff80;
+  border-bottom: 1px solid #00000080;
+  border-radius: 2px;
+  box-shadow: 0px 1px 2px black;
+  height: 20px;
+  text-align: left;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.header-button{
+  background-color: inherit;
+  border: 1px solid #ffffff00;
+  box-shadow: 0px 0px;
+  width: 30px;
+  float: right;
+}
+
+.inset{
+  background-color: inherit;
+  border: 1px solid #ffffff00;
+  border-bottom: 1px solid #ffffff80;
+  border-radius: 3px;
+  box-shadow: 0px 1px 2px black inset;
+  padding: 8px;
+  margin-top: 8px;
+  text-align: left;
+}
+
+.home-button{
+	width: 32px;
+	height: 32px;
+    position: fixed;
+    top: 8px;
+    left: 8px;
+    white-space: nowrap;
+}
+
+a{
+	color: #61FFC9;
+}
+
+button{
+  color: white;
+  background-color: inherit;
+  border: 1px solid #ffffff00;
+  border-top: 1px solid #ffffff80;
+  border-bottom: 1px solid #00000080;
+  /*outline: 1px solid black;
+  width: 100px;
+  *text-shadow: 0px 1px 2px black;*/
+  border-radius: 2px;
+  box-shadow: 0px 1px 2px black;
+  height: 20px;
+}
+
+/*button:hover{
+  background-color: #ffffff40;
+  border: 1px solid #ffffff00;
+  border-top: 1px solid #ffffff80;
+  border-bottom: 1px solid #00000080;
+}*/
+
+button:active{
+  background-color: inherit;
+  border-top: 1px solid transparent;
+  border-bottom: 1px solid #ffffff80;
+  border-radius: 3px;
+  box-shadow: 0px 1px 2px black inset;
+  /*width: 102px;
+  height: 22px;
+  position: relative;
+  bottom: 1px;
+  right: 1px;*/
+}
+
+button:disabled{
+  color: #ffffff80;
+  text-shadow: -1px -1px #00000080;
+}

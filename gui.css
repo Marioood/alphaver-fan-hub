@@ -1,0 +1,23 @@
+ body{
+	image-rendering: pixelated;
+	color: white;
+	background-color: #4e545f;
+	text-shadow: var(--size) var(--size) #404040;
+	margin: 0px;
+	--size: 4px;
+	font-size: calc(10*var(--size));
+ }
+ 
+ .window{
+	 width: calc(176*var(--size));
+	 margin-left: auto;  
+	 margin-right: auto;
+	 border: black solid var(--size);
+	 border-radius: calc(4*var(--size));
+ }
+ 
+ b{
+	 font-weight: normal;
+	 text-shadow: calc(0.8*var(--size)) 0px white, var(--size) var(--size) #404040, calc(2*var(--size)) var(--size) #404040;
+	 letter-spacing: 1px;
+ }

@@ -1,0 +1,15 @@
+.ico-home{
+	background: url(images/icons-32x.svg) 0 0;
+}
+
+.ico-minimize{
+	background: url(images/icons-30x20.svg) 0 0;
+}
+
+.ico-window{
+	background: url(images/icons-30x20.svg) 0 -20px;
+}
+
+.ico-x{
+	background: url(images/icons-30x20.svg) 0 -40px;
+}
