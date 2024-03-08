@@ -1,0 +1,30 @@
+https://alphaver.miraheze.org/wiki/Modifications // reference
+peeps:
+	preview:
+		unr-preview-1
+		preview-loader
+	unr-preview:
+		sex-haxz-client
+		unr-preview-2-crack
+	lilypad:
+		gun-mod
+		bad-block
+		rosepad
+		afterglow
+		lilypad-crack
+		lilypad-client
+	packs:
+		https://alphaver.miraheze.org/wiki/Resource_Packs // nother reference
+	visuals:
+		
+
+my-stuff:
+	lilypad:
+		alphaver-2
+	packs:
+		modern-lilypad-textures
+	visuals:
+		half-ver
+	
+cancelled:
+	le-mwd-smp

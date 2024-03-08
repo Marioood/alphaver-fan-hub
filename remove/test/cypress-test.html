@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="../css/cypress.css">
+		<script>
+			let bgScroll = 0;
+			
+			function scroll() {
+				document.getElementsByTagName('body')[0].style.backgroundPosition = "0px " + bgScroll + "px";
+				bgScroll -= 0.1;
+				window.requestAnimationFrame(scroll);
+			}
+			
+			window.requestAnimationFrame(scroll);
+		</script>
+	</head>
+	<body>
+		<button>Singleplayer</button>
+		<button>Singleplayer</button>
+		<button>Singleplayer</button>
+		<button>Singleplayer</button>
+		<button>Singleplayer</button>
+		<p>ahfsiodfg380jkdgjkldfjklklgjdfklgjdkljfgjdklgjdklfgdfgjkl</p>
+	</body>
+</html>
