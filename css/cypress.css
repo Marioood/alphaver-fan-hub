@@ -76,7 +76,7 @@ a {
 	margin-right: auto;
 }
 
-.inset, .terrain-decor, ul {
+.inset, .terrain-decor, ul, iframe {
 	border: #87C4A4 solid 2px;
 	border-bottom: #52C0BF solid 2px;
 	border-right: #52C0BF solid 2px;
@@ -86,7 +86,6 @@ a {
 	background: -webkit-linear-gradient(270deg, #00000080 0%, transparent 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1);
 	min-height: 98px;
-	padding: 8px;
 }
 
 ul {
@@ -101,7 +100,12 @@ ul {
 }
 
 .center {
-	text-align: center
+	text-align: center;
+}
+
+.center2kki {
+	margin-left: auto;
+	margin-right: auto;
 }
 
 button {

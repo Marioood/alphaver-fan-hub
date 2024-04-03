@@ -1,7 +1,11 @@
 //don't think you're supposed to use document.write, but this code is run before any other elements are added so it should be fine
 document.write('<div class="header">');
 	document.write('<a href="index.html"><h1>AlphaVer Fan Hub</h1></a>');
-	document.write('<i>A work in progress!</i>');
+	if(Math.random() < 0.01) {
+		document.write("<i>Formerly Chuck's</i>");
+	} else {
+		document.write('<i>A work in progress!</i>');
+	}
 	document.write('<div class="header-buttons">');
 	//document.write('<a href="nerd.html"><button class="button-smol">Nerd Stuff</button></a>');
 	document.write('<a href="resources.html"><button class="button-smol">Resources</button></a>');
